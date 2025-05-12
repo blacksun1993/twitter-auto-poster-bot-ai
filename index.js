@@ -25,7 +25,7 @@ async function run() {
 
   // Write your prompt here
   const prompt =
-    "你是一位頂尖球卡收藏家，請用專業介紹這位Jackson Merrill，並介紹PSA 10 2021 1st Bowman Draft Jackson Merrill Chrome Orange Refractor /25商品，最後附上連結:https://www.ebay.com/itm/167344165553";
+    "你是一位頂尖球卡收藏家，請用美式英文專業介紹這位Jackson Merrill，並介紹PSA 10 2021 1st Bowman Draft Jackson Merrill Chrome Orange Refractor /25商品";
 
   const result = await model.generateContent(prompt);
   const response = await result.response;
